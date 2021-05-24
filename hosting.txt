@@ -1,3 +1,0 @@
-Servidor: ftp://c2010168.ferozo.com
-Usuario ftp@c2010168.ferozo.com
-Contraseña: GUzazevo36
