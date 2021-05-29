@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 * {
     box-sizing: border-box !important;
 }
@@ -10,7 +11,8 @@ body, h1, h2, h3, h4, h5 {
 .w3-third img {
     margin-bottom: -6px;
     opacity: 95%;
-    cursor: pointer
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .w3-third img:hover {
@@ -32,6 +34,11 @@ html {
 
 .text-white {
     color: white;
+}
+
+#caption {
+    font-size: 18px;
+    font-family: 'Courgette', cursive;
 }
 
 .font-size {
@@ -66,4 +73,12 @@ html {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #000000, #5c544c83);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.w3-image {
+    width: 45%;
+}
+
+.img-flor-vetas {
+    height:20% !important;
 }
