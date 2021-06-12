@@ -48,7 +48,8 @@
 
       <div class="w3-third">
         <img src="/iloveimg-resized/pajaro-vetas.jpeg" style="width:100%" onclick="onClick(this)" alt="Pájaro y Vid">
-        <img src="/iloveimg-resized/mapaches-fondo-madera.jpg" style="width:100%" onclick="onClick(this)" alt="Bambi y mapaches">
+        <img src="/iloveimg-resized/mapaches-fondo-madera.jpg" style="width:100%" onclick="onClick(this)"
+          alt="Bambi y mapaches">
         <img src="/iloveimg-resized/hamish-fondo-blanco.jpg" style="width:100%" onclick="onClick(this)" alt="Hamish">
       </div>
 
@@ -168,10 +169,10 @@
       <p class="text-color-contact"><strong>Celular:</strong> +54 9 261 200 8270</p>
       <p>Hola! Si te gusta lo que hago, y estas interesado en algo personalizado contactame :). Saludos !</p>
 
-      <form action="contacto.php" method="post">
+      <form name="contact" method="POST" data-netlify="true">
         <div class="w3-section">
           <label>Nombre</label>
-          <input class="w3-input w3-border" type="text" name="nombre" required>
+          <input class="w3-input w3-border" type="text" name="name" required>
         </div>
         <div class="w3-section">
           <label>Email</label>
@@ -179,7 +180,7 @@
         </div>
         <div class="w3-section">
           <label>Mensaje</label>
-          <input class="w3-input w3-border" type="text" name="mensaje" required>
+          <input class="w3-input w3-border" type="text" name="message" required>
         </div>
         <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom" value="Enviar">Enviar</button>
       </form>
